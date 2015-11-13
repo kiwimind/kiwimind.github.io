@@ -7,14 +7,10 @@ What happens if you don’t have enough storage on your partition to have both t
 
 Exporting:
 
-```
-mysqldump -u user -p database | gzip > database.sql.gz
-```
+    mysqldump -u user -p database | gzip > database.sql.gz
 
 Importing:
 
-```
-gunzip < database.sql.gz | mysql -u user -p database
-```
+    gunzip < database.sql.gz | mysql -u user -p database
 
 Another useful trick. And thanks to this, I won’t forget that syntax again. :)
