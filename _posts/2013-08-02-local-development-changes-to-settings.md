@@ -11,6 +11,9 @@ It’s possible to add some lines to your dev settings.php to force settings on 
     $conf['preprocess_css'] = 0;
     $conf['preprocess_js'] = 0;
     
+    // Turn on LESS developer mode
+    $conf['less_devel'] = 1;
+
     // Turn off page and block caching
     $conf['cache'] = 0;
     $conf['block_cache'] = 0;
