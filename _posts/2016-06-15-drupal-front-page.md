@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drupal 8: drupal_is_front_page
+title: Drupal 8 - drupal_is_front_page
 ---
 
 There seem to be a few posts around at the moment about being able to use Drupal 8 with the `drupal_is_front_page()` function.
