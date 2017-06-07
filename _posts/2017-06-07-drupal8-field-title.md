@@ -11,7 +11,7 @@ Recently I needed to place the title field alongside an intro field within a her
 
 After some searching around, it seems to be an often asked question and has been raised a few times on drupal.org.
 
-I found an article on https://www.unleashed-technologies.com/blog/2017/05/22/why-we-ditched-display-suite-module-drupal-8 that seemed to solve this problem, so have included the code block below to save you having to type it out.
+I found an article on [Unleashed Technologies][1] that seemed to solve this problem, so have included the code block below to save you having to type it out.
 
 ```
 <?php
@@ -65,4 +65,7 @@ function field_title_node_view(array &$build, EntityInterface $entity, EntityVie
 }
 ```
 
-Also on a gist here: https://gist.github.com/kiwimind/93ee41ef619cba3b890de7ccf8c7a338
+[Also on a gist][2].
+
+[1]: https://www.unleashed-technologies.com/blog/2017/05/22/why-we-ditched-display-suite-module-drupal-8
+[2]: https://gist.github.com/kiwimind/93ee41ef619cba3b890de7ccf8c7a338
